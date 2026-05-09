@@ -1,15 +1,15 @@
-# 🌧️ Modeling Rainfall Patterns with El Niño Influence Using Time Series
+#  Modeling Rainfall Patterns with El Niño Influence Using Time Series
 
 ![R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-Environmental%20Statistics-2E75B6)
 
-## 📌 Overview
+##  Overview
 This project investigates long-term Indian rainfall patterns (1950–2021) and quantifies the influence of the **El Niño–Southern Oscillation (ENSO)** using advanced time series modeling. The goal is to produce reliable 12-month-ahead forecasts applicable to **agricultural planning and water resource management**.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Decompose 70+ years of monthly rainfall data into trend, seasonal, and residual components
 - Test for stationarity and identify appropriate model orders
 - Compare four forecasting models: ARIMA, SARIMA, SARIMAX, and ETS
@@ -18,7 +18,7 @@ This project investigates long-term Indian rainfall patterns (1950–2021) and q
 
 ---
 
-## 📊 Dataset
+##  Dataset
 | Attribute | Details |
 |-----------|---------|
 | Source | IMD (rainfall), NOAA (ONI index) |
@@ -28,7 +28,7 @@ This project investigates long-term Indian rainfall patterns (1950–2021) and q
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Exploratory Data Analysis
 - Visualized raw time series with LOESS trend overlay
@@ -60,7 +60,7 @@ This project investigates long-term Indian rainfall patterns (1950–2021) and q
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 - Digital ENSO signals (ONI index) explain a meaningful portion of inter-annual rainfall variability
 - SARIMAX reduced RMSE by **15–25%** compared to the baseline ARIMA model
 - Peak rainfall months (July–August) showed highest forecast uncertainty
@@ -68,13 +68,13 @@ This project investigates long-term Indian rainfall patterns (1950–2021) and q
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** R
 - **Key Packages:** `forecast`, `tseries`, `tidyverse`, `ggplot2`, `lubridate`, `gridExtra`
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 ```r
 # 1. Install required packages
 install.packages(c("tidyverse", "lubridate", "tseries",
@@ -89,7 +89,7 @@ source("rainfall_analysis.R")
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 01_rainfall_timeseries/
 │
